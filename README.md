@@ -7,6 +7,6 @@ cd FlaskEnvironment
 podman build -t flask .
 ```
 - Run container with image.
-```
+```bash
 podman run --name flaskservice -v .:/mywork -dp 8100:8100 flask
 ```
